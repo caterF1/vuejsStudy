@@ -1,0 +1,19 @@
+<script src="https://npmcdn.com/vue/dist/vue.js"></script>
+<style>
+    .gray {
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        display: inline-block;
+    }
+</style>
+
+
+<div id = "app">
+   <div class = "gray" :style = "[myBox, {height: width + 'px'}]"></div>
+   <div class = "gray" :style = "{backgroundColor: 'blue'}"></div>
+   <div class = "gray"></div>
+   <input type="text" v-model = "color">
+   <input type="text" v-model = "width">
+</div>
+

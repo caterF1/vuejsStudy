@@ -1,0 +1,42 @@
+#effect {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.highlight {
+  background-color: red;
+  width: 200px !important;
+}
+
+.shrink {
+  background-color: gray;
+  width: 50px !important;
+}
+.arrClass1 {
+  font-size: 30px;
+}
+.arrClass2 {
+  background-color: lightYellow;
+}
+.defaultUser {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+}
+.user1 {
+  width: 20px;
+  height: 20px;
+  background-color: lightGreen;
+}
+.user2 {
+  width: 20px;
+  height: 20px;
+  background-color: lightPink;
+}
+.progressBar {
+  width: 0px;
+  height: 20px;
+  background-color: lightblue;
+  display: inline-block;
+}

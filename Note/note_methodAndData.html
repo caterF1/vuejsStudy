@@ -1,0 +1,12 @@
+<script src="vue.js"></script>
+<div id="app">
+        <p v-once> {{title}}</p>
+<input type="text" v-on:input = "changeTitle">
+  <p>
+    {{title}} - <a v-bind:href="link">google</a>
+  </p>
+  <p>{{sayHello()}}</p>
+ 
+</div>
+
+<script src="main.js"></script>
