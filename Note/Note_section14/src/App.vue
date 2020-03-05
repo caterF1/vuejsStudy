@@ -43,7 +43,7 @@
 				<button class="btn btn-primary" @click="addItem">add item</button>
 
 				<ul class="list-group">
-					<transition-group name="slide">
+					<transition-group name="slide" appear-active-class="">
 						<li
 							class="list-group-item"
 							v-for="(number, ii) in numbers"
